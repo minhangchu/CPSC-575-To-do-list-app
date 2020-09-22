@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>538213660238-i7cgnooj83293dl46akr5u4pi00nmaq5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.538213660238-i7cgnooj83293dl46akr5u4pi00nmaq5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBIOfHQ8ygh1cyawp4tLqeoEqBUPpYUqzI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>538213660238</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.catherine.Make-It-So-SL-Live-2</string>
+	<key>PROJECT_ID</key>
+	<string>make-it-so-sl-live-f0065</string>
+	<key>STORAGE_BUCKET</key>
+	<string>make-it-so-sl-live-f0065.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:538213660238:ios:01612f61a9318c0583751f</string>
+	<key>DATABASE_URL</key>
+	<string>https://make-it-so-sl-live-f0065.firebaseio.com</string>
+</dict>
+</plist>
