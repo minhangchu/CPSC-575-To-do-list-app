@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8DDFA1251AFE52007F3B69 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DDFA0251AFE52007F3B69 /* TaskRepository.swift */; };
 		4B9BC212251AE8000040C819 /* Assignment2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BC211251AE8000040C819 /* Assignment2App.swift */; };
 		4B9BC216251AE8020040C819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9BC215251AE8020040C819 /* Assets.xcassets */; };
 		4B9BC219251AE8020040C819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9BC218251AE8020040C819 /* Preview Assets.xcassets */; };
@@ -15,14 +16,13 @@
 		4B9BC22E251AE8890040C819 /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BC22D251AE8890040C819 /* TaskCellViewModel.swift */; };
 		4B9BC232251AE8AF0040C819 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BC231251AE8AF0040C819 /* TaskListViewModel.swift */; };
 		4B9BC235251AE9FA0040C819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B9BC234251AE9FA0040C819 /* GoogleService-Info.plist */; };
-		4BA12F78251AEAFD00011923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA12F77251AEAFD00011923 /* AppDelegate.swift */; };
-		4BA12F7B251AEB7F00011923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA12F7A251AEB7F00011923 /* SceneDelegate.swift */; };
 		F3E7B88F798D93CB1B3028FC /* Pods_Assignment2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB827597EC7E83714FCEF7 /* Pods_Assignment2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20E84F9FC992C74E0316F1E2 /* Pods-Assignment2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment2.debug.xcconfig"; path = "Target Support Files/Pods-Assignment2/Pods-Assignment2.debug.xcconfig"; sourceTree = "<group>"; };
 		22AB827597EC7E83714FCEF7 /* Pods_Assignment2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8DDFA0251AFE52007F3B69 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 		4B9BC20E251AE8000040C819 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9BC211251AE8000040C819 /* Assignment2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2App.swift; sourceTree = "<group>"; };
 		4B9BC215251AE8020040C819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,8 +33,6 @@
 		4B9BC22D251AE8890040C819 /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
 		4B9BC231251AE8AF0040C819 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 		4B9BC234251AE9FA0040C819 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4BA12F77251AEAFD00011923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BA12F7A251AEB7F00011923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D613FE02C49C1406B5DF5113 /* Pods-Assignment2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment2.release.xcconfig"; path = "Target Support Files/Pods-Assignment2/Pods-Assignment2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B8DDF9F251AFE25007F3B69 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DDFA0251AFE52007F3B69 /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		4B9BC205251AE8000040C819 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +77,8 @@
 		4B9BC210251AE8000040C819 /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
-				4B9BC237251AEA000040C819 /* App */,
 				4B9BC227251AE8440040C819 /* Model */,
+				4B8DDF9F251AFE25007F3B69 /* Repositories */,
 				4B9BC22C251AE87A0040C819 /* ViewModels */,
 				4B9BC221251AE80A0040C819 /* Views */,
 				4B9BC211251AE8000040C819 /* Assignment2App.swift */,
@@ -115,15 +121,6 @@
 				4B9BC231251AE8AF0040C819 /* TaskListViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		4B9BC237251AEA000040C819 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				4BA12F77251AEAFD00011923 /* AppDelegate.swift */,
-				4BA12F7A251AEB7F00011923 /* SceneDelegate.swift */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		64A8CE82F2CA591C59BD6469 /* Frameworks */ = {
@@ -257,8 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA12F78251AEAFD00011923 /* AppDelegate.swift in Sources */,
-				4BA12F7B251AEB7F00011923 /* SceneDelegate.swift in Sources */,
+				4B8DDFA1251AFE52007F3B69 /* TaskRepository.swift in Sources */,
 				4B9BC212251AE8000040C819 /* Assignment2App.swift in Sources */,
 				4B9BC22E251AE8890040C819 /* TaskCellViewModel.swift in Sources */,
 				4B9BC232251AE8AF0040C819 /* TaskListViewModel.swift in Sources */,
